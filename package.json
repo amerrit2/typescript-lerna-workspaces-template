@@ -12,7 +12,8 @@
     "publish:minor": "npm run version:minor && ws-publish --dist-tag latest"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "example"
   ],
   "repository": {
     "type": "git",
